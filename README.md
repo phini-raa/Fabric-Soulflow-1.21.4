@@ -1,10 +1,6 @@
-
 # Soulflow
 
 The Soulflow Mod uses the Impersonate library to add a variety of items that let you swap identities with other players! You can find these items in structures or from mob drops, and you can also craft them at the Alchemy Table.
-
-
-
 
 ###  Soulexchanging Items:
 
@@ -26,7 +22,7 @@ Obtained from:
 - Strongholds
 
 ### Totem of Spores
-The Totem of Spores mimick another players appearance!
+The Totem of Spores mimics another player's appearance!
 
 Obtained from:
 - The Alchemy Table
@@ -37,25 +33,25 @@ The Sunken Grimoire will turn you back into your real self!
 
 Obtained from:
 - Killing Drowneds
-- Buried Treasures
+- Buried Treasure
 - Shipwrecks
 
 ###  Crafting Items:
 
 ### Hollow Totem
-Used as a base totem for the alchemy table!
+Used as a base totem for the Alchemy Table!
 
 Obtained from:
 - Crafting it! (1 Netherite Scrap, 4 Iron Nuggets)
 - Mineshafts 
-- Mob Spawner Loot 
-- Ruined Portal Loot 
-- Woodland Mansion Loot
+- Mob Spawners 
+- Ruined Portals 
+- Woodland Mansions
 
 ### Soul
 Used for crafting things in the Alchemy Table!
 
-A soul is only obtained by smelting soul sand or soul soil!
+A soul is only obtained by smelting Soul Sand or Soul Soil!
 
 ### Alchemy Table
 Used to craft totems!
@@ -71,17 +67,18 @@ Recipes:
 ## Commands
 
 ### /soultransform
-A command exclusive to operators! It lets you set/clear anyones appearance!
+A command exclusive to operators! It lets you set/clear anyone's appearance!
 
 *The Impersonate Library brings its own command to do this, however it is recommended to use this one!*
+
 ### Gamerules:
 
 | *Gamerule*  | *Purpose* |
 | ------------- | ------------- |
 | ```soulflow:exchangeInventories```  | Whether a soul exchange will swap the inventories of players!  |
-| ```soulflow:exchangeEnderchest```  | Whether a soul exchange will swap the content of players enderchests!  |
+| ```soulflow:exchangeEnderchest```  | Whether a soul exchange will swap the contents of players' ender chests!  |
 | ```soulflow:exchangeHealth```  | Whether a soul exchange will swap the health of players!  |
-| ```soulflow:exchangeEffects```  | Whether a soul exchange will swap the health of players!  |
+| ```soulflow:exchangeEffects```  | Whether a soul exchange will swap the effects of players!  |
 | ```soulflow:disablePrivateMessages```  | Disables the /msg command, so that it's harder to tell who's who!  |
 
 On Default, all Gamerules are enabled!
