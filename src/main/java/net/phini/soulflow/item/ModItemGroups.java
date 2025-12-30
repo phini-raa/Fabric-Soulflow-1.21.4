@@ -17,8 +17,8 @@ public class ModItemGroups {
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.TRANSFERENCE_TOTEM);
                         entries.add(ModItems.SPORE_TOTEM);
-                        entries.add(ModItems.SUNKEN_GRIMOIRE);
                         entries.add(ModItems.VOID_TOTEM);
+                        entries.add(ModItems.SUNKEN_GRIMOIRE);
                         entries.add(ModItems.HOLLOW_TOTEM);
                         entries.add(ModItems.SOUL);
                         entries.add(ModBlocks.ALCHEMY_TABLE);

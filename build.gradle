@@ -76,10 +76,14 @@ java {
 }
 
 jar {
-	inputs.property "archivesName", project.base.archivesName
+	// Set the JAR name
+	archiveBaseName.set('Soulflow')  // change to whatever you want
+	archiveVersion.set('1.0.0')            // optional, can leave empty if you want no version
+	archiveClassifier.set('')            // optional, leave empty unless you want a classifier
 
+	// Include LICENSE file
 	from("LICENSE") {
-		rename { "${it}_${inputs.properties.archivesName}"}
+		rename { "LICENSE_${archiveBaseName.get()}" }  // renames LICENSE to match JAR base name
 	}
 }
 
@@ -99,4 +103,9 @@ publishing {
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
 	}
+}
+
+tasks.named("remapJar") {
+	archiveBaseName.set("Soulflow")  // <-- your desired name
+	archiveVersion.set("1.0.0")           // optional, remove if you don't want version in filename
 }

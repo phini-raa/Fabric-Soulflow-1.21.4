@@ -1,7 +1,7 @@
 {
 
 
-  "itemgroup.soulflow.look_like_me_items": "Look Like Me Items",
+  "itemgroup.soulflow.soulflow_items": "Soulflow",
 
   "item.soulflow.totem_of_transference": "Totem of Transference",
   "tooltip.soulflow.totem_of_transference.line1": "§7A totem found in structures, or from witches.",
@@ -15,14 +15,14 @@
   "tooltip.soulflow.void_totem.line2": "§7Exchanges your life with a random nearby player.",
   "item.soulflow.void_totem.message.NooneNearby": "§4There is noone nearby.",
   "item.soulflow.void_totem.message.targetplayer": "§dYour soul has been exchanged.",
-  "item.soulflow.void_totem.message.user": "§dYou have swapped souls successfully.",
+  "item.soulflow.void_totem.message.user": "§dYou have exchanged souls successfully.",
 
   "item.soulflow.totem_of_spores": "Totem of Spores",
   "tooltip.soulflow.totem_of_spores.line1": "§7A totem only found through killing mooshrooms.",
   "tooltip.soulflow.totem_of_spores.line2": "§7Mimicks the appearance of a targeted player.",
   "item.soulflow.totem_of_spores.message.OtherMob": "§4You need to use this on a player.",
-  "item.soulflow.totem_of_spores.message.targetplayer": "§bA player has mimicked you.",
-  "item.soulflow.totem_of_spores.message.user": "§bYou copied their soul.",
+  "item.soulflow.totem_of_spores.message.targetplayer": "§bA player has copied your soul.",
+  "item.soulflow.totem_of_spores.message.user": "§bYou have copied a soul.",
 
   "item.soulflow.sunken_grimoire": "Sunken Grimoire",
   "tooltip.soulflow.sunken_grimoire.line1": "§7An old book only found by interacting with oceans.",
