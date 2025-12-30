@@ -189,6 +189,18 @@ public class VoidTotemItem extends Item {
 
             target.setHealth(Math.min(userHealth, target.getMaxHealth()));
             target.setAbsorptionAmount(userAbsorption);
+
+            int userHunger = user.getHungerManager().getFoodLevel();
+            int targetHunger = target.getHungerManager().getFoodLevel();
+            float userSaturation = user.getHungerManager().getSaturationLevel();
+            float targetSaturation = target.getHungerManager().getSaturationLevel();
+
+            user.getHungerManager().setFoodLevel(targetHunger);
+            user.getHungerManager().setSaturationLevel(targetSaturation);
+
+            target.getHungerManager().setFoodLevel(userHunger);
+            target.getHungerManager().setSaturationLevel(userSaturation);
+
         }
 
     }
