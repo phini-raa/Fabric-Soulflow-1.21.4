@@ -1,0 +1,54 @@
+{
+
+
+  "itemgroup.soulflow.look_like_me_items": "Look Like Me Items",
+
+  "item.soulflow.totem_of_transference": "Totem of Transference",
+  "tooltip.soulflow.totem_of_transference.line1": "§7A totem found in structures, or from witches.",
+  "tooltip.soulflow.totem_of_transference.line2": "§7Exchanges your life with a targeted player.",
+  "item.soulflow.totem_of_transference.message.OtherMob": "§4You need to use this on a player.",
+  "item.soulflow.totem_of_transference.message.targetplayer": "§bYour soul has been exchanged.",
+  "item.soulflow.totem_of_transference.message.user": "§bYou have swapped souls successfully.",
+
+  "item.soulflow.void_totem": "Totem of the Void",
+  "tooltip.soulflow.void_totem.line1": "§7A totem crafted from the void.",
+  "tooltip.soulflow.void_totem.line2": "§7Exchanges your life with a random nearby player.",
+  "item.soulflow.void_totem.message.NooneNearby": "§4There is noone nearby.",
+  "item.soulflow.void_totem.message.targetplayer": "§dYour soul has been exchanged.",
+  "item.soulflow.void_totem.message.user": "§dYou have swapped souls successfully.",
+
+  "item.soulflow.totem_of_spores": "Totem of Spores",
+  "tooltip.soulflow.totem_of_spores.line1": "§7A totem only found through killing mooshrooms.",
+  "tooltip.soulflow.totem_of_spores.line2": "§7Mimicks the appearance of a targeted player.",
+  "item.soulflow.totem_of_spores.message.OtherMob": "§4You need to use this on a player.",
+  "item.soulflow.totem_of_spores.message.targetplayer": "§bA player has mimicked you.",
+  "item.soulflow.totem_of_spores.message.user": "§bYou copied their soul.",
+
+  "item.soulflow.sunken_grimoire": "Sunken Grimoire",
+  "tooltip.soulflow.sunken_grimoire.line1": "§7An old book only found by interacting with oceans.",
+  "tooltip.soulflow.sunken_grimoire.line2": "§7Returns you to your real appearance.",
+  "item.soulflow.sunken_grimoire.message.OtherMob": "§4You need to use this on an undead mob.",
+  "item.soulflow.sunken_grimoire.message.NotImpersonating": "§4You are yourself already.",
+  "item.soulflow.sunken_grimoire.message.user": "§9You've returned to your real body.",
+
+  "block.soulflow.alchemy_table": "Alchemy Table",
+
+  "item.soulflow.soul": "Soul",
+  "item.soulflow.hollow_totem": "Hollow Totem",
+
+  "painting.soulflow.witch.author": "§7phini_",
+  "painting.soulflow.witch.title": "§bTotem Hunt",
+
+  "commands.soulflow.disabledmsgs.message": "§4This command has been disabled through a gamerule.",
+
+  "gamerule.soulflow:disablePrivateMessages": "Disable the /msg command (to not reveal players identity)",
+  "gamerule.soulflow:exchangeEffects": "Exchange players effects upon a soul exchange",
+  "gamerule.soulflow:exchangeEnderchests": "Exchange the content of players enderchest upon a soul exchange",
+  "gamerule.soulflow:exchangeHealth": "Exchange players health upon a soul exchange",
+  "gamerule.soulflow:exchangeInventories": "Exchange players Inventories upon a soul exchange",
+
+  "command.soulflow.soultransform.clear.other": "%s has been returned to themselves.",
+  "command.soulflow.soultransform.clear.self": "Stopped being %s",
+  "command.soulflow.soultransform.start.other": "%s started being %s",
+  "command.soulflow.soultransform.start.self": "Started being %s"
+}

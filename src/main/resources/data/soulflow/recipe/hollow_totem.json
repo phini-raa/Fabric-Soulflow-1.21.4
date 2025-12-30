@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#S#",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:iron_nugget",
+    "S": "minecraft:netherite_scrap"
+  },
+  "result": {
+    "id": "soulflow:hollow_totem",
+    "count": 1
+  }
+}

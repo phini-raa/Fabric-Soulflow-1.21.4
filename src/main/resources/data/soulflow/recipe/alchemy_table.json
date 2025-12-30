@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ASA",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:blackstone",
+    "S": "soulflow:soul",
+    "A": "minecraft:amethyst_shard"
+  },
+  "result": {
+    "id": "soulflow:alchemy_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type" : "minecraft:model",
+    "model": "soulflow:item/hollow_totem"
+  }
+}

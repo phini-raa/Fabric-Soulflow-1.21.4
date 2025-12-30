@@ -1,0 +1,10 @@
+{
+  "type": "soulflow:alchemy_table",
+  "inputA": "minecraft:red_mushroom_block",
+  "inputB": "soulflow:hollow_totem",
+  "inputC": "soulflow:soul",
+  "output": {
+    "id": "soulflow:totem_of_spores",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "asset_id": "soulflow:witch",
+
+  "height": 1,
+
+  "width": 2,
+
+  "author": {
+
+    "translate": "painting.soulflow.witch.author"
+
+  },
+
+  "title": {
+
+    "translate": "painting.soulflow.witch.title"
+
+  }
+
+}

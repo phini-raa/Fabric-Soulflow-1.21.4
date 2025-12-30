@@ -1,0 +1,10 @@
+{
+  "type": "soulflow:alchemy_table",
+  "inputA": "minecraft:ender_eye",
+  "inputB": "soulflow:hollow_totem",
+  "inputC": "soulflow:soul",
+  "output": {
+    "id": "soulflow:void_totem",
+    "count": 1
+  }
+}

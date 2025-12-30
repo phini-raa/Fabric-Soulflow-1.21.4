@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "soulflow:block/alchemy_table" }
+  }
+}

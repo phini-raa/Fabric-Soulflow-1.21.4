@@ -1,0 +1,10 @@
+{
+  "type": "soulflow:alchemy_table",
+  "inputA": "minecraft:fermented_spider_eye",
+  "inputB": "soulflow:hollow_totem",
+  "inputC": "soulflow:soul",
+  "output": {
+    "id": "soulflow:totem_of_transference",
+    "count": 1
+  }
+}

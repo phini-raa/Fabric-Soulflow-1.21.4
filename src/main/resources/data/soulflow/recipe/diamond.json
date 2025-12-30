@@ -1,0 +1,10 @@
+{
+  "type": "soulflow:alchemy_table",
+  "inputA": "minecraft:redstone",
+  "inputB": "minecraft:iron_ingot",
+  "inputC": "minecraft:gold_ingot",
+  "output": {
+    "id": "minecraft:diamond",
+    "count": 1
+  }
+}

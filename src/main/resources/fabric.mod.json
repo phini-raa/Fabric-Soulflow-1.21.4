@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "soulflow",
+	"version": "${version}",
+	"name": "soulflow",
+	"description": "A social-based soul-exchanging mod by Phini!",
+	"authors": [
+		"Phini!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/soulflow/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.phini.soulflow.Soulflow"
+		],
+		"fabric-datagen": [
+			"net.phini.soulflow.SoulflowDataGenerator"
+		],
+		"client": [
+			"net.phini.soulflow.SoulflowClient"
+		]
+	},
+	"mixins": [
+		"soulflow.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
