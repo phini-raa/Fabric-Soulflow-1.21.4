@@ -174,15 +174,6 @@ public class ModLootTableModifiers {
 
                     tableBuilder.pool(poolBuilder.build());
                 }
-                if(TOOLSMITH_ID.equals(key.getValue())) {
-                    LootPool.Builder poolBuilder = LootPool.builder()
-                            .rolls(ConstantLootNumberProvider.create(1))
-                            .conditionally(RandomChanceLootCondition.builder(0.1f))
-                            .with(ItemEntry.builder(ModItems.HOLLOW_TOTEM))
-                            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f,1.0f)).build());
-
-                    tableBuilder.pool(poolBuilder.build());
-                }
                 if(WOODLAND_MANSION_ID.equals(key.getValue())) {
                     LootPool.Builder poolBuilder = LootPool.builder()
                             .rolls(ConstantLootNumberProvider.create(1))
